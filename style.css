@@ -1,0 +1,24 @@
+:root{
+   --bg: #00FFE4 ;
+   --accent: #5032AD ;
+   --text: #000000 ;
+   --panel: #FF0000 ;
+   --retro: #CCFF00 ;
+   font-family:fantasy
+}
+html,body{
+    height: 100%;margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at 20% 20%, rgba(235, 138, 178, 100), transparent 5%),
+    linear-gradient(0deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    color: var(--text)
+}
+.container{width: 900px;
+max-width: 95%;
+padding: 20px}
+h1{font-size: xx-large;
+}
